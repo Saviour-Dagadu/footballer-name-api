@@ -2,18 +2,18 @@ const express = require('express')
 const { request, response } = require('express')
 const app = express()
 const cors = require('cors')
-const PORT = 8000
+const PORT = 2000
 
 app.use(cors())
 
     const footballer = {
         'ronaldo': {
-        'age': 34,
+        'age': 37,
         'birthName': 'Cristiano Ronaldo dos Santos Aveiro',
         'birthLocation':'Funchal, Madeira, Portugal'
         },
         'bruno': {
-            'age': 34,
+            'age': 25,
             'birthName': 'Bruno Miguel Borges Fernandes',
             'birthLocation':'Maia, Portugal'
             },
