@@ -8,6 +8,8 @@ async function apiRequest(){
 
         console.log(data)
         document.querySelector('h3').innerText = data.birthName
+        document.querySelector('h4').innerText = data.birthLocation
+        document.querySelector('h5').innerText = data.age
     } catch (error) {
         console.log(error)
     }
