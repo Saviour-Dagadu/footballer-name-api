@@ -1,0 +1,2 @@
+// When you push this to heroku, it will help you to know how to star
+web: node server.js

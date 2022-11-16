@@ -1,0 +1,2 @@
+// When you push this to heroku, it will help you 
+web: node server.js
